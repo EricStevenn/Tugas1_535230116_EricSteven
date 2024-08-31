@@ -32,7 +32,7 @@ body {
     align-items: center;
     display: flex;
     background: black;
-    opacity: .9;
+    opacity: 1;
 }
 
 .logo {
@@ -426,4 +426,86 @@ body {
 
 .skills-content .program-icon a:hover::before {
     width: 100%;
+}
+
+
+/*Experiences Section*/
+.experiences-content h3 {
+    font-size: 25px;
+    font-weight: 650;
+    margin: 5px 0 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.experiences-content h3 span {
+    margin-left: 10px;
+    color: var(--main-color);
+    text-shadow: 0 0 10px var(--main-color);
+}
+
+.experiences-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.experiences-content .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 250px;
+}
+
+.experiences-content h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.experiences-content .container h4 span {
+    font-weight: 100;
+}
+
+.experiences-content p {
+    font-size: 15px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.experiences-content ul {
+    width: 60%;
+    background: var(--third-color);
+    border-radius: 10px;
+    padding: 5px 40px;
+    height: 230px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.experiences-content li {
+    margin: 10px 0 10px 0;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.company img {
+    width: 450px;
+    height: 450px;
+    margin-bottom: 80px;
+    border: 8px var(--third-color) solid;
+    border-radius: 50%;
+    box-shadow: 0px 0 90px #393E46;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.company img:hover {
+    box-shadow: 0 0 120px #393E46;
+    transform: scale(1.1);
 }
