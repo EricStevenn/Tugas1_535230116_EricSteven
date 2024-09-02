@@ -37,8 +37,8 @@
             </p>
 
             <div class="home-sci">
-                <a href="#"><i class='bx bxl-instagram'></i></a>
-                <a href="#"><i class='bx bxl-youtube'></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#"><i class="fa-solid fa-envelope"></i></a>
                 <a href="#"><i class='bx bxl-linkedin'></i></a>
             </div>
 
@@ -57,7 +57,7 @@
         <div class="heading"><h2>About</h2></div>
 
         <div class="about-content">
-            <h3>Background of <span> Ericson.</span></h3>
+            <h3>À propos d'<span> Ericson.</span></h3>
             <p>From a young age, I have been passionate about working with digital projects, especially coding for websites. What
             started as a hobby has grown into a dedicated interest. I particularly enjoy working on front-end development projects.
             I also have a strong appreciation for the arts, including painting and music, which have sharpened my sensitivity to
@@ -79,8 +79,8 @@
         <div class="heading"><h2>Skills</h2></div>
 
         <div class="skills-content">
-            <h3>Skills of <span>Ericson.</span></h3>
-                <p>Good at Comunication & Expert on These Below Programs</p>
+            <h3>Compétences d'<span>Ericson.</span></h3>
+                <p>Capable speak English & Chinese language | Capable Operate These Below Programs</p>
                 <div class="container">
                     <div class="program-icon">
                         <a href="#skills"><i class="fa-brands fa-java"></i></a>
@@ -88,9 +88,9 @@
                         <a href="#skills"><i class="fa-brands fa-python"></i></a>
                         <a href="#skills"><i class='bx bxl-flutter'></i></a>
                         <a href="#skills"><i class='bx bxl-unity'></i></a>
-                        <a href="#skills"><i class="fa-brands fa-github"></i></a>
+                        <a href="#skills"><i class="fa-brands fa-css3-alt"></i></a>
                         <a href="#skills"><i class="fa-brands fa-node"></i></a>
-                        <a href="#skills"><i class="fa-brands fa-linux"></i></a>
+                        <a href="#skills"><i class="fa-brands fa-html5"></i></a>
                     </div>
                 </div>
             </div>
@@ -101,7 +101,7 @@
         <div class="heading"><h2>Experiences</h2></div>
 
             <div class="experiences-content">
-                <h3>Experiences of <span>Ericson.</span></h3>
+                <h3>L'expérience d'<span>Ericson.</span></h3>
                 <div class="container">
                     <h4>Web Developer | XYZ Tech Solutions - <span>Jakarta, Indonesia</span></h4>
                     <p>January 2022 - Present</p>
@@ -168,7 +168,7 @@
         </div>
     
         <div class="education-content">
-            <h3>Education of <span>Ericson.</span></h3>
+            <h3>L'éducation d'<span>Ericson.</span></h3>
             <div class="container">
                 <div class="education-item">
                     <h4>Bachelor of Science in Computer Science</h4>
@@ -197,6 +197,17 @@
     <footer class="footer">
         <a href="#" class="copyright">© Ericson Stevenson</a>
     </footer>
+
+    <script>
+        const navbarLinks = document.querySelectorAll('.navbar a');
+
+        navbarLinks.forEach(link => {
+            link.addEventListener('click', function () {
+                navbarLinks.forEach(link => link.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+    </script>
 
 </body>
 
